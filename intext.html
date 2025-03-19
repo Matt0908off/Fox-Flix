@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fox-Flix</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      background-color: rgb(248, 224, 189);
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: rgb(250, 84, 19);"> FOX-FLIX</h1>
+  <form id="searchForm">
+    <input  class="group" type="text" id="searchInput" placeholder="Digite sua busca..." required>
+    <button class="button" type="submit">Pesquisar</button>
+  </form>
+  <ul id="results"></ul>
+  <script src="script.js"></script>
+  <!-- From Uiverse.io by elijahgummer --> 
+<div class="main">
+  <div class="dog">
+    <div class="dog__paws">
+      <div class="dog__bl-leg leg">
+        <div class="dog__bl-paw paw"></div>
+        <div class="dog__bl-top top"></div>
+      </div>
+      <div class="dog__fl-leg leg">
+        <div class="dog__fl-paw paw"></div>
+        <div class="dog__fl-top top"></div>
+      </div>
+      <div class="dog__fr-leg leg">
+        <div class="dog__fr-paw paw"></div>
+        <div class="dog__fr-top top"></div>
+      </div>
+    </div>
+
+    <div class="dog__body">
+      <div class="dog__tail"></div>
+    </div>
+
+    <div class="dog__head">
+      <div class="dog__snout">
+        <div class="dog__nose"></div>
+        <div class="dog__eyes">
+          <div class="dog__eye-l"></div>
+          <div class="dog__eye-r"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dog__head-c">
+      <div class="dog__ear-l"></div>
+      <div class="dog__ear-r"></div>
+    </div>
+  </div>
+</div>
+<div id="popup" class="popup-container">
+  <div class="popup-content">
+    <span class="popup-close" id="popupClose">&times;</span>
+    <h2>Siga @mr.matt.off no Instagram!</h2>
+    <p>Para mais atualizações incríveis e conteúdo divertido, siga nosso perfil no Instagram.</p>
+    <a href="https://www.instagram.com/mr.matt.off" target="_blank" class="popup-button">Seguir no Instagram</a>
+  </div>
+</div>
+<div id="loading" class="loading-container">
+  <div class="loading-content">
+    <div class="loading-ball"></div>
+  </div>
+</div>
+</body>
+</html>
